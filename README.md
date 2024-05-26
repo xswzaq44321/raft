@@ -1,3 +1,14 @@
+# Result
+
+![alt text](Code_wo4nlJse9F-26Sunday-09PM.png)
+
+- Testing and output log
+```
+go test -v -timeout 60s -race -count 1 ./... | tee log.txt
+```
+
+ran into some permission issue, so I have to run `sudo chmod -R 775 /home/student/go/pkg/mod/cache/` and `sudo chown -R student /home/student/go/pkg/mod/cache/`, hopefully that won't affect how this HW will be tested
+
 # Raft
 
 Author: Justin Chen <<mail@justin0u0.com>>
